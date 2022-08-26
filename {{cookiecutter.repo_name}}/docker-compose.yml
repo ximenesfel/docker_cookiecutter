@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  {{cookiecutter.service_name}}:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    image: {{cookiecutter.image_name}}
+    container_name: {{cookiecutter.container_name}}
+    tty: true
+    volumes:
+      - ./code:/root/code

@@ -1,0 +1,7 @@
+{
+    "project_name": "Teste",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "service_name": "teste",
+    "image_name": "teste",
+    "container_name": "teste"
+  }
